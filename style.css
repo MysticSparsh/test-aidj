@@ -1,0 +1,77 @@
+body
+{
+background-size: cover;
+}
+
+.heading 
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    
+    }
+    
+
+.note 
+{
+    font-size: 15px;
+    color: black;
+}
+
+.div_speed
+{
+    float: left;
+}
+
+.div_speed_img,.div_volume_img
+{
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed,#volume
+{
+    font-size: 23px;
+    margin: 15px;
+}
+
+.div_volume
+{
+    float: right;
+}
+
+.play_button
+{
+    width: 130px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+   margin-right: 10px;
+    
+   
+    float: none;
+
+}
+
+.stop_button{
+    width: 130px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    
+    float: none;
+    margin-left: 10px;
+}
+
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.heading span 
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.7em;
+}
